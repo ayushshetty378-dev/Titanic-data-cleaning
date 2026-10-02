@@ -12,7 +12,7 @@
 2. `pip install pandas scikit-learn matplotlib seaborn`
 3. `python titanic.py`
 
-Outputs: `titanic.csv`, `figures/age_distribution.png`, `figures/age_by_survival.png`
+Outputs: `titanic_cleaned.csv`, `figures/age_distribution.png`, `figures/age_by_survival.png`
 
 ## Cleaning decisions
 | Column | Issue | Fix |
