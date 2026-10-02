@@ -1,18 +1,18 @@
 # Mini Project 1 - Titanic Survival Prediction: Data Cleaning
 
 ## Run
-1. Download `train.csv` from https://www.kaggle.com/c/titanic/data and place it in the `titanic_project/` folder, right next to `titanic_cleaning.py`:
+1. Download `train.csv` from https://www.kaggle.com/c/titanic/data and place it in the `titanic_project/` folder, right next to `titanic.py`:
    ```
    titanic_project/
    ├── titanic_cleaning.py
    ├── README.md
    └── train.csv        <-- put it here
    ```
-   (If you keep it elsewhere, pass the path instead: `python titanic_cleaning.py path/to/train.csv`)
+   (If you keep it elsewhere, pass the path instead: `python titanic.py path/to/train.csv`)
 2. `pip install pandas scikit-learn matplotlib seaborn`
 3. `python titanic_cleaning.py`
 
-Outputs: `titanic_cleaned.csv`, `figures/age_distribution.png`, `figures/age_by_survival.png`
+Outputs: `titanic.csv`, `figures/age_distribution.png`, `figures/age_by_survival.png`
 
 ## Cleaning decisions
 | Column | Issue | Fix |
